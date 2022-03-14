@@ -1,0 +1,40 @@
+- get tic-tac-toe running on your machine
+	- open the index.html page in your browser
+	- open the developer console
+		- on firefox: https://developer.mozilla.org/en-US/docs/Tools/Browser_Console#opening_the_browser_console
+	- test out the buttons and verify that the logs are working in the console
+- Inside the div, id=game, add 9 boxes to create the tic-tac-toe grid
+	- all 9 boxes should share the same css class
+	- all 9 boxes should have a unique class
+	- use cssGrid or flexbox to organize the board
+		- https://www.w3schools.com/css/css_grid.asp
+		- https://www.w3schools.com/css/css3_flexbox_responsive.asp
+		- https://flexboxfroggy.com/
+- Allow user to interact with the board
+	- when the user presses a box, it should display an "X"
+	- the user should only be able to select empty boxes
+	- the user should not be allowed to select a box if it is not the user's turn (use isUsersTurn variable)
+- Set up the computer AI (aiMove)
+	- after the user selects a box, the computer should select any box and it should display "O" 
+	- the computer should only be able to select empty boxes
+	- the computer should not move IMMEDIATELY after the user; add a small delay
+- Set up game logic
+	- if a user gets 3 in a row, show the win message
+	- if the computer gets 3 in a row, show the lose message
+	- if there are no remaining boxes and no one has won, show the draw message
+- The reset button should allow the user to play again from the starting position.
+
+
+EXTRA
+- Make it pretty
+	- add colors you like
+	- add a font you like
+	- add a favicon
+- smart AI
+	- computer should win if there is a win opportunity
+	- computer should protect itself if there is a win opportunity for the user
+- Add sound effects
+- Allow the user to choose to play "X" or "O"
+- Super smart AI
+	- the computer should use perfect strategy: https://www.rd.com/article/how-to-win-tic-tac-toe/
+
